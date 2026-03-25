@@ -12,7 +12,7 @@ class Flux2Pro(io.ComfyNode):
     @classmethod
     def define_schema(cls):
         return io.Schema(
-            node_id="Flux2Pro_BFL",
+            node_id="FLUX2_Pro_FLUX2_API_NODES",
             display_name="FLUX.2 [Pro]",
             category="FLUX.2",
             description="Generate or edit images via FLUX.2 [Pro] API with up to 8 reference images",

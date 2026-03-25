@@ -12,7 +12,7 @@ class Flux2Klein9BKV(io.ComfyNode):
     @classmethod
     def define_schema(cls):
         return io.Schema(
-            node_id="Flux2Klein9BKV_BFL",
+            node_id="FLUX2_Klein_9B_KV_FLUX2_API_NODES",
             display_name="FLUX.2 [Klein 9B KV]",
             category="FLUX.2",
             description="Generate or edit images via FLUX.2 [Klein 9B KV] API with up to 4 reference images",

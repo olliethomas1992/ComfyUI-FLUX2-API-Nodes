@@ -12,7 +12,7 @@ class Flux2Flex(io.ComfyNode):
     @classmethod
     def define_schema(cls):
         return io.Schema(
-            node_id="Flux2Flex_BFL",
+            node_id="FLUX2_Flex_FLUX2_API_NODES",
             display_name="FLUX.2 [Flex]",
             category="FLUX.2",
             description="Generate or edit images via FLUX.2 [Flex] API with guidance and steps control",
