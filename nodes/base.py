@@ -49,7 +49,6 @@ async def download_and_process_image(sample_url, output_format="jpeg"):
 async def post_request(url_path, arguments, config_override=None):
     """Submit a generation request to the BFL API. Returns task_id or None."""
     config_loader_instance = get_config_loader(config_override)
-    config_loader_instance.set_x_key()
 
     post_url = config_loader_instance.create_url(url_path)
     headers = {"x-key": config_loader_instance.get_x_key()}

@@ -1,5 +1,5 @@
 """FLUX.2 [Max] — V3 async node with 8 IMAGE slots."""
-from comfy_api.latest import ComfyExtension, io
+from comfy_api.latest import io
 import comfy.utils
 from .base import image_to_base64, create_blank_image, post_request, poll_for_result
 
@@ -23,7 +23,7 @@ class Flux2Max(io.ComfyNode):
                 io.Int.Input("width", default=1024, min=0, max=4096, step=32, tooltip="Image width in pixels (0 = auto, min 64, must be multiple of 32)"),
                 io.Int.Input("height", default=1024, min=0, max=4096, step=32, tooltip="Image height in pixels (0 = auto, min 64, must be multiple of 32)"),
                 io.Int.Input("safety_tolerance", default=2, min=0, max=5, tooltip="Content filter strictness (0 = most strict, 5 = most lenient)"),
-                io.Combo.Input("output_format", options=["jpeg", "png"], default="jpeg", tooltip="Output image format"),
+                io.Combo.Input("output_format", options=["jpeg", "png", "webp"], default="jpeg", tooltip="Output image format"),
                 io.Boolean.Input("transparent_bg", default=False, tooltip="Remove background and return RGBA PNG"),
                 io.Image.Input("image_1", optional=True, tooltip="Reference image 1"),
                 io.Image.Input("image_2", optional=True, tooltip="Reference image 2"),

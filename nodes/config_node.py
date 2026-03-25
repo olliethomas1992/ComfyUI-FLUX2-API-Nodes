@@ -1,5 +1,5 @@
 """BFL Config node — V3 schema."""
-from comfy_api.latest import ComfyExtension, io
+from comfy_api.latest import io
 from .config import ConfigLoader
 
 # Custom type for BFL config
