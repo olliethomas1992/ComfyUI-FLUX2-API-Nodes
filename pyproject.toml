@@ -6,4 +6,4 @@ license = {file = "LICENSE"}
 dependencies = ["torch", "aiohttp"]
 
 [project.urls]
-Repository = "https://github.com/olliethomas1992/ComfyUI-FLUX.2-API-Nodes"
+Repository = "https://github.com/olliethomas1992/ComfyUI-FLUX2-API-Nodes"

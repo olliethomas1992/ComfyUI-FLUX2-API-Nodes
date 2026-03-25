@@ -1,4 +1,4 @@
-# ComfyUI-FLUX.2-API-Nodes
+# ComfyUI-FLUX2-API-Nodes
 
 ComfyUI V3 nodes for generating images with [FLUX.2](https://blackforestlabs.ai/) models via the BFL API. Accepts ComfyUI IMAGE tensors directly — no separate base64 conversion needed.
 
@@ -19,8 +19,8 @@ ComfyUI V3 nodes for generating images with [FLUX.2](https://blackforestlabs.ai/
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/olliethomas1992/ComfyUI-FLUX.2-API-Nodes.git
-pip install -r ComfyUI-FLUX.2-API-Nodes/requirements.txt
+git clone https://github.com/olliethomas1992/ComfyUI-FLUX2-API-Nodes.git
+pip install -r ComfyUI-FLUX2-API-Nodes/requirements.txt
 ```
 
 ## Configuration
